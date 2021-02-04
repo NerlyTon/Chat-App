@@ -1,12 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import { ChatEngine } from 'react-chat-engine'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
-    </div>
-  );
+    <ChatEngine
+      height="100vh"
+      projectID=""
+      userName=""
+      userSecret=""
+    />
+  )
 }
 
 export default App;
